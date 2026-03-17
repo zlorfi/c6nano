@@ -130,7 +130,7 @@ void openUdpSocket() {
     return;
   }
 
-  err = otUdpBind(sInstance, &sUdpSocket, &sockAddr, OT_NETIF_THREAD);
+  err = otUdpBind(sInstance, &sUdpSocket, &sockAddr, OT_NETIF_THREAD_HOST);
   if (err != OT_ERROR_NONE) {
     Serial.printf("[UDP] otUdpBind failed: %d\n", err);
     otUdpClose(sInstance, &sUdpSocket);

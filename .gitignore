@@ -1,1 +1,3 @@
 .opencode-session
+.esphome/
+secrets.yaml

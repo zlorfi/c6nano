@@ -46,7 +46,7 @@
 // a new standalone network.
 #define THREAD_NETWORK_KEY  "00112233445566778899aabbccddeeff"
 #define THREAD_CHANNEL      "15"
-#define THREAD_PANID        "1234"
+#define THREAD_PANID        "8d31"
 
 // ── UDP ───────────────────────────────────────────────────────────────────────
 #define UDP_PORT  5000
